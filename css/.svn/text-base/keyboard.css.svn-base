@@ -1,0 +1,81 @@
+
+#keyboard{
+	width:990px;
+	display:none;
+	position: absolute ;
+	z-index: 200;
+	background:#999;
+	margin:0px;
+	padding:0px;
+}
+
+#keyboard button{
+	width:80px;
+	_width:69px;
+	height:50px;
+}
+
+#keyboard .tab, #keyboard .delete{
+	width:100px;
+	_width:90px;
+}
+
+#keyboard .capslock, #keyboard .return{
+	width:132px;
+	_width:114px;
+}
+
+#keyboard .left-shift, #keyboard .right-shift{
+	width:174px;
+	_width:149px;
+}
+
+#keyboard .right-shift{
+	_width:148px;
+}
+
+
+#keyboard .on {
+	display: none;
+}
+
+#keyboard .space {
+	clear: left;
+	/*width: 1194px;*/
+	width: 1108px;
+	_width: 918px;
+}
+
+#keyboard .num{
+	font-weight:bold;
+}
+
+
+#keyboard .uppercase {
+	text-transform: uppercase;
+}
+
+#numPad{
+	display:none;
+}
+#numPad .delete{
+	width:80px;
+	_width:69px;
+}
+
+#numPad .space{
+	width:332px;
+	_width:276px;
+}
+
+#icon_div{
+	
+	position: absolute ;
+	z-index: 100;
+	right:30px;
+	bottom:30px;
+}
+
+.red{
+	border-color:#f00;
+}

@@ -1,0 +1,154 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	
+	<title>Virtual Keyboard</title>
+	
+</head>
+<body>
+<link rel="stylesheet" type="text/css" href="css/keyboard.css" />
+<div class="test">fdsf1</div>
+<div id="container">
+<div class="test">fdsf2</div>
+	write1:<textarea id="write1" rows="6" cols="60"></textarea>
+	<br/><br/>
+	write2:<textarea id="write2" rows="10" cols="40"></textarea>
+	<br/><br/>
+	write3:<input id="write3" type="text" class="vKeyboard"/>a
+	<br/><br/>
+	write4:<input id="write4" type="text" class="vKeyboard"/>
+	<br/><br/>
+	write5:<input id="write5" type="text" class="vKeyboard"/>
+	<br/><br/>
+	write6:<input id="write6" type="text" class="vKeyboard"/>
+	<br/><br/>
+	write7:<input id="write7" type="text" class="vKeyboard"/>
+	<br/><br/>
+	write8:<input id="write8" type="text" class="vKeyboard"/>
+	<br/><br/>
+	write9:<input id="write9" type="text" class="vKeyboard"/>
+	<br/><br/>
+	write10:<input id="write10" type="text" class="vKeyboard"/>
+	<div style="height:250px; border:1px #f00 solid;">
+	
+	</div>
+
+	<div id="keyboard">
+		<div id="abcPad">
+			<div>
+				<button class="symbol"><span class="off">1</span><span class="on">!</span></button>
+				<button class="symbol"><span class="off">2</span><span class="on">@</span></button>
+				<button class="symbol"><span class="off">3</span><span class="on">#</span></button>
+				<button class="symbol"><span class="off">4</span><span class="on">$</span></button>
+				<button class="symbol"><span class="off">5</span><span class="on">%</span></button>
+				<button class="symbol"><span class="off">6</span><span class="on">^</span></button>
+				<button class="symbol"><span class="off">7</span><span class="on">&amp;</span></button>
+				<button class="symbol"><span class="off">8</span><span class="on">*</span></button>
+				<button class="symbol"><span class="off">9</span><span class="on">(</span></button>
+				<button class="symbol"><span class="off">0</span><span class="on">)</span></button>
+				<button class="symbol"><span class="off">-</span><span class="on">_</span></button>
+				<button class="symbol"><span class="off">=</span><span class="on">+</span></button>
+				<button class="delete">Delete</button>
+				<button class="keyboard-close">X</button>
+			</div>
+			<div>
+				<button class="tab">tab</button>
+				<button class="letter">q</button>
+				<button class="letter">w</button>
+				<button class="letter">e</button>
+				<button class="letter">r</button>
+				<button class="letter">t</button>
+				<button class="letter">y</button>
+				<button class="letter">u</button>
+				<button class="letter">i</button>
+				<button class="letter">o</button>
+				<button class="letter">p</button>
+				<button class="symbol"><span class="off">[</span><span class="on">{</span></button>
+				<button class="symbol"><span class="off">]</span><span class="on">}</span></button>
+				<button class="symbol"><span class="off">\</span><span class="on">|</span></button>
+			</div>
+			<div>
+				<button class="capslock">Caps Lock</button>
+				<button class="letter">a</button>
+				<button class="letter">s</button>
+				<button class="letter">d</button>
+				<button class="letter">f</button>
+				<button class="letter">g</button>
+				<button class="letter">h</button>
+				<button class="letter">j</button>
+				<button class="letter">k</button>
+				<button class="letter">l</button>
+				<button class="symbol"><span class="off">;</span><span class="on">:</span></button>
+				<button class="symbol"><span class="off">'</span><span class="on">&quot;</span></button>
+				<button class="capslock">Caps Lock</button>
+				<!--<button class="return">Enter</button>-->
+			</div>
+			<div>
+				<button class="left-shift">Shift</button>
+				<button class="letter">z</button>
+				<button class="letter">x</button>
+				<button class="letter">c</button>
+				<button class="letter">v</button>
+				<button class="letter">b</button>
+				<button class="letter">n</button>
+				<button class="letter">m</button>
+				<button class="symbol"><span class="off">,</span><span class="on">&lt;</span></button>
+				<button class="symbol"><span class="off">.</span><span class="on">&gt;</span></button>
+				<button class="symbol"><span class="off">/</span><span class="on">?</span></button>
+				<button class="right-shift">Shift</button>
+			</div>
+			<div>
+				<button class="space">&nbsp;</button>
+				<button class="num">123</button>
+			</div>
+		</div>
+		
+		<div id="numPad">
+			<div>
+				<button class="symbol"><span class="off">1</span></button>
+				<button class="symbol"><span class="off">2</span></button>
+				<button class="symbol"><span class="off">3</span></button>
+				<button class="keyboard-close">X</button>
+			</div>
+			<div>
+				<button class="symbol"><span class="off">4</span></button>
+				<button class="symbol"><span class="off">5</span></button>
+				<button class="symbol"><span class="off">6</span></button>
+				<button class="abc">ABC</button>
+			</div>
+			<div>
+				<button class="symbol"><span class="off">7</span></button>
+				<button class="symbol"><span class="off">8</span></button>
+				<button class="symbol"><span class="off">9</span></button>
+				<button class="delete">Delete</button>
+			</div>
+			<div>
+				<button class="symbol"><span class="off">*</span></button>
+				<button class="symbol"><span class="off">0</span></button>
+				<button class="symbol"><span class="off">#</span></button>
+				<button class="symbol"><span class="off">+</span></button>
+			</div>
+			<div>
+				<button class="space">&nbsp;</button>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
+<div id="icon_div">
+	<button id="icon_key">KeyBoard</button>
+</div>
+
+<script type="text/javascript">
+	document.getElementById("write3").focus();
+
+</script>
+
+<script type="text/javascript" src="js/jquery-1.4.2.min.js"></script>
+<script type="text/javascript" src="js/keyboard.js"></script>
+
+</body>
+</html>
